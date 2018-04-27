@@ -1,0 +1,173 @@
+/*
+correcao da cor da borda das tabelas do plugins handsontable de modo que fiquem pretas
+
+*/
+/* 
+    Created on : 15/07/2016, 13:47:38
+    Author     : wiltonwass
+*/
+.handsontable th,
+.handsontable td {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size : x-small;
+    text-align : center;
+    vertical-align: middle;
+    height: 10;
+    max-height: 10;
+}
+.handsontable th {
+    color: #fff !important;
+    background-color: #008cba !important;
+}
+.azul-primary {
+    color: #fff !important;
+    background-color: #008cba !important;
+}
+.azul-info{
+    background-color: #d9edf7 !important;
+}
+
+.vermelho{
+    background-color: #ff8c8c !important;
+}
+.vermelho-misto{
+    background-color: #ff7272 !important;
+}
+.vermelho-outra{
+    background-color: #ff5959 !important;
+}
+.azul{
+    background-color: #cce5ff !important;
+}
+.verde{
+    background-color: #ccffce !important;
+}
+.cinza-fraco{
+    background-color: #f2f2f2 !important;
+}
+.cinza-medio{
+    background-color: #d8d8d8 !important;
+}
+.cinza-forte{
+    background-color: #b2b2b2 !important;
+}
+.cinza-mais-forte{
+    background-color: #999999 !important;
+}
+.amarelo-fraco{
+    background-color: #fff7d3 !important;
+}
+.amarelo-medio{
+    background-color: #fff0a5 !important;
+}
+.amarelo-forte{
+    background-color: #ffeb8c !important;
+}
+.amarelo-mais-forte{
+    background-color: #ffe772 !important;
+}
+
+.outra-fraco{
+    background-color: #faddff !important;
+}
+.outra-medio{
+    background-color: #f7c9ff !important;
+}
+.outro-orgao-fraco{
+    background-color: #a9aec7 !important;
+}
+.outro-orgao-medio{
+    background-color: #959dc7 !important;
+}
+.outro-orgao-misto-fraco{
+    background-color: #a9c7ac !important;
+}
+.outro-orgao-misto-medio{
+    background-color: #95c79a !important;
+}
+.misto-fraco{
+    background-color: #d3ffe7 !important;
+}
+.misto-medio{
+    background-color: #c1ffdd !important;
+}
+
+.turno_svc{
+    font-size: 10px !important;
+}
+
+.turno_svc.linhaColSel {
+    background-color: #8ac6ff !important;
+    /*color:*/ 
+}
+
+.y-overflow{
+    overflow-y: visible !important;
+}
+
+.afastamento{
+    background-color: #e6bf99 !important;
+}
+.afastamento-medio{
+    background-color: #bf9e7f !important;
+}
+
+.afastamento-forte{
+    background-color: #967f69 !important;
+}
+.habilitacao_invalida{
+    background-color: #ea7093 !important;
+}
+.habilitacao_invalida-medio{
+    background-color: #bf5b77 !important;
+}
+.habilitacao_invalida-forte{
+    background-color: #9b3b56 !important;
+}
+
+.risaer{
+    background-color: #ff3333 !important;
+}
+
+.orgao-risaer{
+    background-color: #990000 !important;
+}
+
+/*
+cria a expansão do texto que excede a largura da célula
+*/
+.rotulo .rotulotexto {
+    visibility: hidden;
+    width: auto;
+    min-width: 20;
+    background-color: black;
+    color: #fff;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 999;
+}
+
+.rotulo:hover .rotulotexto {
+    visibility: visible;
+}
+
+.rotulo .rotulotexto::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}

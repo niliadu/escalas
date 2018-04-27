@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/08/2016, 10:00:30
+    Author     : lambertolaon
+*/
+
+.modal {
+  display: none;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+
+.modal-open {/*corrige um corte no selectpiker colocado no modal*/
+    overflow: auto;
+}
+
+/*.Primeiro
+{
+    position: fixed;
+    top: 0%;     
+}*/
+
+/*.Segundo
+{
+    
+    overflow: auto;
+    
+}*/

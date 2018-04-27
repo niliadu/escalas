@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09/09/2016, 11:03:37
+    Author     : wiltonwass
+*/
+
+.largura table{
+    width: 350px;
+    table-layout: fixed;
+    
+}
+
+.largura td{
+    width: 50px;
+    padding: 2pt;
+    font-size: 5pt;
+}
+.bb td{
+    border-bottom: 1pt solid black;
+}
+.bl td{
+    border-left: 1pt solid black;
+}
+.bt td{
+    border-top: 1pt solid black;
+}
+.br td{
+    border-right: 1pt solid black;
+}
+.linhaServico td{
+    height: 30px;
+}
+.individual-cabecalho td{
+    font-weight: bold;
+    background-color: whitesmoke;
+}

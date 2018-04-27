@@ -1,0 +1,11 @@
+/*
+corige a profundidade do selector de horário
+*/
+/* 
+    Created on : 08/06/2016, 15:04:16
+    Author     : wiltonwass
+*/
+
+.clockpicker-popover {
+    z-index: 999999;
+}

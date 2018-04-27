@@ -1,0 +1,12 @@
+/*
+ajuda a retirar a responsabilidade do site evitando que os elementos fiquem desalinhados em telas menores
+*/
+/* 
+    Created on : 30/09/2016, 09:38:35
+    Author     : wilton
+*/
+
+.container{
+  max-width: none !important;
+  width:970px;
+}

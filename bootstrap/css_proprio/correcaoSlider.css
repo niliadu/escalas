@@ -1,0 +1,11 @@
+/*
+corige a profundidade do slider no adicionar escala
+*/
+/* 
+    Created on : 29/06/2016, 10:40:16
+    Author     : lambertolaon
+*/
+
+.slider {  
+  z-index: 0;
+}
